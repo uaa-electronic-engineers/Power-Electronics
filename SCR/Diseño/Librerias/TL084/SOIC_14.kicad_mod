@@ -1,0 +1,143 @@
+
+(footprint SOIC_14 (layer F.Cu) (tedit 69A5E8BE)
+  (descr "")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 0) (layer F.SilkS)
+    (effects (font (size 0.787401574803 0.787401574803) (thickness 0.15)))
+  )
+  (fp_text value "SOIC_14" (at 0 0) (layer F.Fab)
+    (effects (font (size 0.787401574803 0.787401574803) (thickness 0.15)))
+  )
+  (pad P$1 smd rect (at 0.0 0.0) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$2 smd rect (at 1.27 0.0) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$3 smd rect (at 2.54 0.0) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$4 smd rect (at 3.81 0.0) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$5 smd rect (at 5.08 0.0) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$6 smd rect (at 6.35 0.0) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$7 smd rect (at 7.62 0.0) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$8 smd rect (at 7.62 -5.4) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$9 smd rect (at 6.35 -5.4) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$10 smd rect (at 5.08 -5.4) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$11 smd rect (at 3.81 -5.4) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$12 smd rect (at 2.54 -5.4) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$13 smd rect (at 1.27 -5.4) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad P$14 smd rect (at 0.0 -5.4) (size 0.6 1.55) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (fp_line (start -0.508 -4.826) (end 8.382 -4.826) (layer F.Fab) (width 0.127))
+  (fp_line (start 8.382 -4.826) (end 8.382 -0.508) (layer F.Fab) (width 0.127))
+  (fp_line (start 8.382 -0.508) (end -0.762 -0.508) (layer F.Fab) (width 0.127))
+  (fp_line (start -0.762 -0.508) (end -0.762 -4.826) (layer F.Fab) (width 0.127))
+  (fp_line (start -0.762 -4.826) (end -0.508 -4.826) (layer F.Fab) (width 0.127))
+  (fp_circle (center -0.254 -1.524) (end 0.0 -1.524) (layer F.Fab) (width 0.127))
+  (fp_poly
+    (pts
+      (xy -0.254 -5.588)
+      (xy 0.254 -5.588)
+      (xy 0.254 -4.826)
+      (xy -0.254 -4.826)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 1.016 -5.588)
+      (xy 1.524 -5.588)
+      (xy 1.524 -4.826)
+      (xy 1.016 -4.826)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 2.286 -5.588)
+      (xy 2.794 -5.588)
+      (xy 2.794 -4.826)
+      (xy 2.286 -4.826)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 3.556 -5.588)
+      (xy 4.064 -5.588)
+      (xy 4.064 -4.826)
+      (xy 3.556 -4.826)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 4.826 -5.588)
+      (xy 5.334 -5.588)
+      (xy 5.334 -4.826)
+      (xy 4.826 -4.826)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 6.096 -5.588)
+      (xy 6.604 -5.588)
+      (xy 6.604 -4.826)
+      (xy 6.096 -4.826)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 7.366 -5.588)
+      (xy 7.874 -5.588)
+      (xy 7.874 -4.826)
+      (xy 7.366 -4.826)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 7.366 -0.508)
+      (xy 7.874 -0.508)
+      (xy 7.874 0.254)
+      (xy 7.366 0.254)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 6.096 -0.508)
+      (xy 6.604 -0.508)
+      (xy 6.604 0.254)
+      (xy 6.096 0.254)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 4.826 -0.508)
+      (xy 5.334 -0.508)
+      (xy 5.334 0.254)
+      (xy 4.826 0.254)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 3.556 -0.508)
+      (xy 4.064 -0.508)
+      (xy 4.064 0.254)
+      (xy 3.556 0.254)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 2.286 -0.508)
+      (xy 2.794 -0.508)
+      (xy 2.794 0.254)
+      (xy 2.286 0.254)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 1.016 -0.508)
+      (xy 1.524 -0.508)
+      (xy 1.524 0.254)
+      (xy 1.016 0.254)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.254 -0.508)
+      (xy 0.254 -0.508)
+      (xy 0.254 0.254)
+      (xy -0.254 0.254)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+)
